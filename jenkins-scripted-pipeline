@@ -1,0 +1,11 @@
+node {  
+    stage('Build') { 
+        echo "this is scripted pipeline build"
+    }
+    stage('Test') { 
+         echo "this is scripted pipeline test"
+    }
+    stage('Monitor') { 
+        echo "1"
+    }
+}
